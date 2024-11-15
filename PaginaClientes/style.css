@@ -1,0 +1,208 @@
+.entrar {
+    height: 100vh; 
+    margin: 0;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    background: linear-gradient(to right, #2dec14, #28ddb6); 
+}
+
+.inicio_sesion {
+    background-color: white;
+    padding: 5%;
+    border-radius: 7px;
+    width: 23%;
+}
+
+.inicio_sesion h1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; /* Espacio entre el título y los campos */
+}
+
+.inicio_sesion .mb-3 {
+    margin-bottom: 15px;
+}
+
+.inicio_sesion label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.inicio_sesion input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box; /* Asegura que el padding no afecte el ancho */
+}
+
+.inicio_sesion input:focus {
+    border-color: #4CAF50; /* Color de borde cuando el campo está enfocado */
+    outline: none;
+}
+
+.inicio_sesion a {
+    display: block;
+    width: 100%;
+    background: rgb(128, 237, 153);
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-top: 20px; /* Espacio entre los campos y el botón */
+}
+
+.inicio_sesion a:hover {
+    background-color: rgb(84, 109, 255);
+    border-radius: 7px;
+    color: white;
+    border: 1px solid rgb(84, 109, 255);
+}
+
+
+/* Pestaña clientes */
+.encabezado {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between; /* Distribuye los elementos a la izquierda y derecha */
+    align-items: center; /* Centra los elementos verticalmente */
+    padding: 0 20px; /* Agrega un poco de espacio a los lados */
+    background-color: #2dec14;
+}
+
+
+.encabezado h1 {
+    flex-grow: 1; /* Esto hace que el título ocupe todo el espacio disponible */
+    text-align: center;
+}
+
+.nuevoUser a {
+    text-decoration: none;
+}
+
+.nuevoUser a:hover {
+    color: white;
+}
+
+.clienteNuevo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 15vh;
+    padding: 5%;
+    background-color: #020202;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 1200px; 
+    margin: 5% auto; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+/* Targeta */
+.tarjeta {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 300px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    margin: 10px; /* Espacio entre las tarjetas */
+}
+
+.persona {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    border: 2px solid #000000;
+}
+
+.tarjeta h3 {
+    margin: 0;
+    font-size: 1.4rem;
+    color: #333;
+}
+
+.tarjeta p {
+    color: #777;
+    font-size: 0.9rem;
+}
+
+.botones {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+/* Imágenes de los botones de borrar y editar */
+.borrar, .editar {
+    width: 30px; 
+    height: 30px;
+    border: none; 
+}
+
+.borrar img, .editar img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.borrar {
+    cursor: pointer;
+}
+
+.editar {
+    cursor: pointer;
+}
+
+.con2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ocupar todo el alto de la pantalla */
+}
+
+.nuevo_cliente {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 20%;
+    height: 35vh;
+    margin-top: -10%;
+    padding: 2%;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px; 
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Sombra para destacar el modal */
+}
+
+.form-group{
+    margin-top:2%;
+}
+
+.guarda{
+    display: flex;
+    flex-direction: row;
+    width: 20vh;
+    justify-content: center;
+    padding: 3%;
+    border: 1px solid black;
+}
